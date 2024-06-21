@@ -1,4 +1,20 @@
 {% extends "layout.html" %}
-{% block content %}
-	<h1>Home</h1>
-{% endblock content %}
+
+{% block header %}
+
+<a href="{{ url_for('home') }}"
+	class="text-white text-decoration-none d-flex align-items-center ml-3">
+	<img src="{{ url_for('static', filename='images/FOE_logo.png') }}"
+		alt="FOE Logo" width="156px" height="250px" class="mr-2">
+	<h1 class="mb-0">FOE<br>Archive</h1>
+</a>
+<nav>
+	<a class="text-white ml-3" href="{{ url_for('courses') }}">Courses</a>
+	<a class="text-white ml-3" href="{{ url_for('exams') }}">Exams</a>
+	<a class="text-white ml-3" href="{{ url_for('lessons') }}">Lessons</a>
+</nav>
+
+{% endblock header %}
+
+{% block body %}
+{% endblock body %}

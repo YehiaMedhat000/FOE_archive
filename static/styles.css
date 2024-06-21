@@ -1,0 +1,34 @@
+header {
+	background-color: #333;
+	color: white;
+	padding: 20px 0;
+}
+
+.container {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+h1 {
+	margin: 0;
+	font-size: 120px;
+}
+
+nav a {
+	color: white;
+	text-decoration: none;
+	margin-left: 20px;
+}
+
+nav a:hover {
+	text-decoration: underline;
+}
+
+a.text-decoration-none {
+	margin-left: 1cm;
+}
+
+img.mr-2 {
+	margin-right: 15px;
+}
